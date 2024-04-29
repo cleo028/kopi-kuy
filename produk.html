@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Produk</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+
+    <style>
+        section {
+            min-height: 90vh;
+        }
+
+        body {
+            background-color: azure;
+        }
+    </style>
+
+</head>
+
+<body data-info="tulis kode bootstrap di baris 22">
+
+    <nav class="navbar navbar-expand-lg bisadicopy bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo/logo_kuy.png" height="40" alt="image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav3"
+                aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav3">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html#our-team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html#review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html#contact-us">Contact Us</a>
+                    </li>
+                    <a class="btn btn-outline-light ms-md-3"
+                        href="https://wa.me/6281228484628?text=Saya ingin bertanya"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-whatsapp" viewBox="0 0 16 16">
+                            <path
+                                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                        </svg> Chat</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="riki-block produk text-center my-5 py-5">
+        <div class="container">
+            <h1>Pilih Produk Anda</h1>
+            <p class="fs-4">Kualitas terbaik biji kopi pilihan fresh diambil langsung dari petani</p>
+            <hr class="border border-success border-3 opacity-75">
+
+            <!-- Ini Untuk Select -->
+            <div class="form-floating col-lg-4 mx-auto">
+                <select class="form-select" id="select_kopi" aria-label="Floating label select example">
+                    <option selected disabled>-</option>
+                    <option value="arabica">Arabica</option>
+                    <option value="robusta">Robusta</option>
+                    <option value="nonkopi">Non Kopi</option>
+                </select>
+                <label for="select_kopi">Pilih Jenis Kopi</label>
+            </div>
+
+            <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuchino</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    1.000 Gram
+                                </div>
+                                <div class="col fw-bold text-primary">
+                                    148.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-cart4" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                                </svg> Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_espresso.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    500 Gram
+                                </div>
+                                <div class="col fw-bold text-primary">
+                                    58.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-cart4" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                                </svg> Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_kopi_susu.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kopi Susu</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    1.000 Gram
+                                </div>
+                                <div class="col fw-bold text-primary">
+                                    200.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-cart4" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                                </svg> Beli</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_latte.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    200 Gram
+                                </div>
+                                <div class="col fw-bold text-primary">
+                                    49.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-cart4" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                                </svg> Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <footer class="riki-block footer-small py-4 bg-dark">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8">
+                    <ul class="nav justify-content-center justify-content-md-start">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#our-team">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+                    © 2023 Riki &amp; Froala . All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/produk.js"></script>
+    <script data-info="bisa tulis kode js di js/produk.js ataupun di bawah sini">
+
+
+        baris_produk.innerHTML = ""
+        var data_mentah = {
+            "Arabica": [
+                {
+                    "foto": "images/produk/product_capuchino.jpg",
+                    "nama": "Cappuccino Arabica",
+                    "size": "500 Gram",
+                    "harga": "200.000",
+                    "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+                },
+                {
+                    "foto": "images/produk/product_espresso.jpg",
+                    "nama": "Espresso Arabica",
+                    "size": "100 Gram",
+                    "harga": "100.000",
+                    "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+                },
+                {
+                    "foto": "images/produk/product_latte.jpg",
+                    "nama": "Latte Arabica",
+                    "size": "150 Gram",
+                    "harga": "150.000",
+                    "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
+                },
+                {
+                    "nama": "Macchiato Arabica",
+                    "size": "200 ml",
+                    "harga": "30.000",
+                    "link": "#",
+                    "foto": "https://roastercoffees.com/wp-content/uploads/2021/05/Espresso-Macchiato-Recipe.webp"
+                }
+            ],
+            "Robusta": [
+                {
+                    "foto": "images/produk/product_kopi_susu.jpg",
+                    "nama": "Kopsus Robusta",
+                    "size": "100 Gram",
+                    "harga": "80.000",
+                    "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+                },
+                {
+                    "foto": "images/produk/product_latte.jpg",
+                    "nama": "Latte Robusta",
+                    "size": "150 Gram",
+                    "harga": "150.000",
+                    "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+                },
+                {
+                    "nama": "Mocha Robusta",
+                    "size": "200 ml",
+                    "harga": "25.000",
+                    "link": "#",
+                    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSARTbW5rBsTprLIMjeV8QGYGIDorgPGT7_mIKLKCbQYA&s"
+                },
+                {
+                    "nama": "Espresso Robusta",
+                    "size": "100 ml",
+                    "harga": "15.000",
+                    "link": "#",
+                    "foto": "https://awsimages.detik.net.id/community/media/visual/2021/12/19/3-trik-bikin-kopi-espresso-tanpa-mesin-hasilnya-tetap-nikmat_169.jpeg?w=600&q=90"
+                }
+            ],
+            "Non Kopi": [
+                {
+                    "foto": "https://img.freepik.com/free-photo/top-view-set-ice-cream-cones-with-chocolate_23-2148425392.jpg",
+                    "nama": "Ice Cream",
+                    "size": "100 Gram",
+                    "harga": "10.000",
+                    "link": "https://www.google.com/search?q=ice+cream+cone&tbm=shop"
+                },
+                {
+                    "nama": "Ice Tea",
+                    "size": "200 ml",
+                    "harga": "15.000",
+                    "link": "#",
+                    "foto": "https://www.bhg.com/thmb/kAhRz_bReKb3ZTZOYIdwh1BuqHo=/4000x0/filters:no_upscale():strip_icc()/Iced-tea-5jP-uD5bK5hBYsyq3sZgOH-e5e31955f95747529a10da7528246fd3.jpg"
+                },
+                {
+                    "nama": "Lemon Squash",
+                    "size": "200 ml",
+                    "harga": "20.000",
+                    "link": "#",
+                    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD9XMKT7VjDOzrmlK2vIe0euaKBIPYt34ErBQGpcMbZA&s"
+                },
+                {
+                    "nama": "Es Cendol",
+                    "size": "250 ml",
+                    "harga": "10.000",
+                    "link": "#",
+                    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxM2D6oLx0lcza9ixi8qjleZAgR0ACVNiYOo8q_tJPgQ&s"
+                }
+            ],
+            "Cemilan": [
+                {
+                    "nama": "Pisang Goreng",
+                    "size": "5 pcs",
+                    "harga": "20.000",
+                    "link": "#",
+                    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvaJ1M-Ia7jPCmMbh-rNnDzpbFqqfk7XJqZPPwor4yA&s"
+                },
+                {
+                    "nama": "Cireng ",
+                    "size": "10 pcs",
+                    "harga": "15.000",
+                    "link": "#",
+                    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlM0_n74vKhg_de1KxbpB_U64xG0PswWKjdz0H94xpWg&s"
+                },
+                {
+                    "nama": "Roti Bakar",
+                    "size": "2 pcs",
+                    "harga": "15.000",
+                    "link": "#",
+                    "foto": "https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2022/04/22/resep-roti-martabak-isi-cokelat-20220422043354.jpg"
+                },
+                {
+                    "nama": "Mendoan",
+                    "size": "5 pcs",
+                    "harga": "15.000",
+                    "link": "#",
+                    "foto": "https://img.kurio.network/QH1TeX-2eRQ559hB1dTfR4ZEcBs=/320x320/filters:quality(80)/https://kurio-img.kurioapps.com/21/02/24/4f99af33-b3c1-47cd-a219-f1a5289f8b29.jpe"
+                }
+            ],
+            "Makanan": [
+                {
+                    "nama": "Nasi Goreng",
+                    "size": "1 porsi",
+                    "harga": "30.000",
+                    "link": "#",
+                    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRLD43cz-PPQVeLR7iRnlObUMwkfYoRTysV-L3vMmrFA&s"
+                },
+                {
+                    "nama": "Mie Goreng",
+                    "size": "1 porsi",
+                    "harga": "25.000",
+                    "link": "#",
+                    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Ag3qunS4yklQIQWRK816FTz8riQr9Cr5r4mgeUb8HA&s"
+                },
+                {
+                    "nama": "Kwetiau Goreng",
+                    "size": "1 porsi",
+                    "harga": "30.000",
+                    "link": "#",
+                    "foto": "https://www.dapurkobe.co.id/wp-content/uploads/ketiauw-goreng-saus-tiram.jpg"
+                },
+                {
+                    "nama": "Nasi Ayam Geprek",
+                    "size": "1 porsi",
+                    "harga": "35.000",
+                    "link": "#",
+                    "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSYf_6JJRTU51AmaBvCB2ZL0acIp_rctZ7rYpC9gQUkQ&s"
+                }
+            ]
+        }
+        var data_kopi = []
+
+        console.log(data_mentah)
+
+        var sumber = "https://rikikurnia.com/prakerja/api/kopi";
+        var sumber2 = "data.json"
+
+
+        $.getJSON(sumber2).then(function (data) {
+            console.log(data)
+            data_mentah = data
+            updateSelect()
+        })
+
+
+        function updateSelect() {
+            select_kopi.innerHTML = `<option selected disabled>-</option>`
+            Object.keys(data_mentah).forEach(function (opsi) {
+                select_kopi.innerHTML += ` <option value="${opsi}">${opsi}</option>`
+            })
+            console.log("update select", Object.keys(data_mentah))
+        }
+        updateSelect()
+
+
+        function updateTampilan() {
+
+            baris_produk.innerHTML = ""
+
+            data_kopi.forEach(function (kopi) {
+
+                baris_produk.innerHTML += ` <div class="col mb-4">
+            <div class="card">
+                <img src="${kopi.foto}" class="card-img-top" alt="..." height= "300px" width: "300px">
+                <div class="card-body">
+                    <h5 class="card-title">${kopi.nama}</h5>
+                    <div class="row hargasize my-4">
+                        <div class="col">
+                            ${kopi.size}
+                        </div>
+                        <div class="col fw-bold text-primary">
+                            ${kopi.harga}
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cart4" viewBox="0 0 16 16">
+                            <path
+                                d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
+                        </svg> Beli</a>
+                </div>
+            </div>`
+
+            })
+        }
+
+        updateTampilan()
+
+
+        select_kopi.onchange = function () {
+            console.log(select_kopi.value)
+            data_kopi = data_mentah[select_kopi.value]
+            console.log(data_kopi)
+            updateTampilan()
+        }
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

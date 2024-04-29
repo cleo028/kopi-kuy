@@ -1,0 +1,152 @@
+{
+    "Arabica": [
+        {
+            "foto": "images/produk/product_capuchino.jpg",
+            "nama": "Cappuccino Arabica",
+            "size": "200 ml",
+            "harga": "30.000",
+            "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_espresso.jpg",
+            "nama": "Espresso Arabica",
+            "size": "100 ml",
+            "harga": "20.000",
+            "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Arabica",
+            "size": "150 ml",
+            "harga": "30.000",
+            "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
+        },
+        {
+            "nama": "Macchiato Arabica",
+            "size": "200 ml",
+            "harga": "30.000",
+            "link": "https://liliebakery.fr/en/latte-macchiato/",
+            "foto": "https://roastercoffees.com/wp-content/uploads/2021/05/Espresso-Macchiato-Recipe.webp"
+        }
+    ],
+    "Robusta": [
+        {
+            "foto": "images/produk/product_kopi_susu.jpg",
+            "nama": "Kopsus Robusta",
+            "size": "100 Gram",
+            "harga": "80.000",
+            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Robusta",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+        },
+        {
+            "nama": "Mocha Robusta",
+            "size": "200 ml",
+            "harga": "25.000",
+            "link": "#",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSARTbW5rBsTprLIMjeV8QGYGIDorgPGT7_mIKLKCbQYA&s"
+        },
+        {
+            "nama": "Espresso Robusta",
+            "size": "100 ml",
+            "harga": "15.000",
+            "link": "#",
+            "foto": "https://awsimages.detik.net.id/community/media/visual/2021/12/19/3-trik-bikin-kopi-espresso-tanpa-mesin-hasilnya-tetap-nikmat_169.jpeg?w=600&q=90"
+        }
+    ],
+    "Non Kopi": [
+        {
+            "foto": "https://img.freepik.com/free-photo/top-view-set-ice-cream-cones-with-chocolate_23-2148425392.jpg",
+            "nama": "Ice Cream",
+            "size": "100 Gram",
+            "harga": "10.000",
+            "link": "https://www.google.com/search?q=ice+cream+cone&tbm=shop"
+        },
+        {
+            "nama": "Ice Tea",
+            "size": "200 ml",
+            "harga": "15.000",
+            "link": "#",
+            "foto": "https://www.bhg.com/thmb/kAhRz_bReKb3ZTZOYIdwh1BuqHo=/4000x0/filters:no_upscale():strip_icc()/Iced-tea-5jP-uD5bK5hBYsyq3sZgOH-e5e31955f95747529a10da7528246fd3.jpg"
+        },
+        {
+            "nama": "Lemon Squash",
+            "size": "200 ml",
+            "harga": "20.000",
+            "link": "#",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD9XMKT7VjDOzrmlK2vIe0euaKBIPYt34ErBQGpcMbZA&s"
+        },
+        {
+            "nama": "Es Cendol",
+            "size": "250 ml",
+            "harga": "10.000",
+            "link": "#",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxM2D6oLx0lcza9ixi8qjleZAgR0ACVNiYOo8q_tJPgQ&s"
+        }
+    ],
+    "Cemilan": [
+        {
+            "nama": "Pisang Goreng",
+            "size": "5 pcs",
+            "harga": "20.000",
+            "link": "#",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvaJ1M-Ia7jPCmMbh-rNnDzpbFqqfk7XJqZPPwor4yA&s"
+        },
+        {
+            "nama": "Cireng ",
+            "size": "10 pcs",
+            "harga": "15.000",
+            "link": "#",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlM0_n74vKhg_de1KxbpB_U64xG0PswWKjdz0H94xpWg&s"
+        },
+        {
+            "nama": "Roti Bakar",
+            "size": "2 pcs",
+            "harga": "15.000",
+            "link": "#",
+            "foto": "https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2022/04/22/resep-roti-martabak-isi-cokelat-20220422043354.jpg"
+        },
+        {
+            "nama": "Mendoan",
+            "size": "5 pcs",
+            "harga": "15.000",
+            "link": "#",
+            "foto": "https://img.kurio.network/QH1TeX-2eRQ559hB1dTfR4ZEcBs=/320x320/filters:quality(80)/https://kurio-img.kurioapps.com/21/02/24/4f99af33-b3c1-47cd-a219-f1a5289f8b29.jpe"
+        }
+    ],
+    "Makanan": [
+        {
+            "nama": "Nasi Goreng",
+            "size": "1 porsi",
+            "harga": "30.000",
+            "link": "#",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRLD43cz-PPQVeLR7iRnlObUMwkfYoRTysV-L3vMmrFA&s"
+        },
+        {
+            "nama": "Mie Goreng",
+            "size": "1 porsi",
+            "harga": "25.000",
+            "link": "#",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Ag3qunS4yklQIQWRK816FTz8riQr9Cr5r4mgeUb8HA&s"
+        },
+        {
+            "nama": "Kwetiau Goreng",
+            "size": "1 porsi",
+            "harga": "30.000",
+            "link": "#",
+            "foto": "https://www.dapurkobe.co.id/wp-content/uploads/ketiauw-goreng-saus-tiram.jpg"
+        },
+        {
+            "nama": "Nasi Ayam Geprek",
+            "size": "1 porsi",
+            "harga": "35.000",
+            "link": "#",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSYf_6JJRTU51AmaBvCB2ZL0acIp_rctZ7rYpC9gQUkQ&s"
+        }
+    ]
+}
